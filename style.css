@@ -1,0 +1,70 @@
+.outer {
+    display: table;
+    position: absolute;
+    top: 88px;
+    left: 0;
+    height: calc(100% - 88px);
+    width: 100%;
+  }
+  
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+  
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    /* Whatever width you want */
+}
+
+#lucky{
+    margin-right: 10px;
+
+}
+
+#searchBtn{
+    margin-left: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#advHeading{
+    padding: 30px;
+    padding-top: 0;
+    color:brown;
+}
+
+table{
+    margin:30px;
+    margin-top:20px;
+    width: 90%;
+    empty-cells: show;
+}
+
+tr{
+    margin 100px;
+}
+
+.advInput{
+    width:769px;
+    margin: 10px ;
+}
+
+.toBox{
+    width:364px;
+    margin:10px;
+}
+
+#advanceBody{
+    font-size: small;
+}
+
+#searchBtn{
+    margin-right:11px;
+}
+#advBtn{
+    margin-right:11px;
+    margin-top: 20px;
+}
